@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #2baaec; 
+    --secondary-color: #25e6c8; 
+    --text-color: #626262;
+    --title-color: #363636;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.text-color {
+    color: var(--text-color);
+}
+
+.title-color {
+    color: var(--title-color);
+}
