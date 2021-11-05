@@ -219,7 +219,7 @@ html, body {
 #services {
     background: #dedede;
     min-height: 50vh;
-}
+} 
 
 
 
@@ -277,6 +277,7 @@ html, body {
     .numbers h3 {
         font-size: 1.8rem;
     }
+
 }
 /* media 992px end */
 
@@ -299,5 +300,7 @@ html, body {
         height: auto;
         text-align: left;
     }
+
+
 } 
 /* media 1200px end*/
