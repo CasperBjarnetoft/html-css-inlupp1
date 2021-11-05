@@ -40,6 +40,12 @@ html, body {
     background-color: var(--primary-color);
 }
 
+.line {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 5px;
+}
+
 /* Topnav css start */
 #top-nav {
    border: 1px solid #707070;
@@ -128,7 +134,7 @@ html, body {
 #showcase .container img {
     height: 500px;
     display: none;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .content {
@@ -143,7 +149,6 @@ html, body {
 
 .text h1 {
     font-size: 1.7rem;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 300;
     margin-bottom: 1rem;
@@ -153,10 +158,73 @@ html, body {
     font-size: 1.1rem;
     font-weight: 500;
 }
-/* showcase end */
+/* showcase css end */
+
+/* about start */
+#about {
+    margin-top: 4rem;
+    min-height: 50vh;
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .container img {
+    height: 500px;
+    display: none;
+    margin-top: 3rem;
+}
+
+.information {
+    align-self: center;
+    padding: 3rem;
+}
+
+.info {
+    margin-bottom: 3rem;
+    color: var(--text-color);
+}
+
+
+.info h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.info p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.information .flex {
+    justify-content: space-between;
+}
+
+.numbers {
+    padding: 1rem;
+}
+
+.numbers h3 {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+/* about css end */
+
+/* services css start */
+#services {
+    background: #dedede;
+    min-height: 50vh;
+}
 
 
 
+
+/* media 768px start */
 @media (min-width: 768px) {
 
     .container {
@@ -183,22 +251,53 @@ html, body {
         width: auto;
     }
 }
+/* media 768px end */
 
-
-
+/* media 992px start */
 @media (min-width: 992px){
     #showcase .container img {
         display: inline-block;
+        height: 600px;
     }
 
     .content {
         width: 65%;
+        height: auto;
         text-align: left;
     }
-}
 
+    #about .container img {
+        height: 600px;
+    }
+
+    .information {
+        width: 100%;
+    }
+
+    .numbers h3 {
+        font-size: 1.8rem;
+    }
+}
+/* media 992px end */
+
+/* media 1200px start */
 @media (min-width: 1200px){
     .text h1 {
-        font-size: 3rem;
+        font-size: 2.8rem;
+    }
+
+    .info h2 {
+        font-size: 1.9rem;
+    }
+
+    #about .container img {
+        display: inline-block;
+    }
+
+    .information {
+        width: 65%;
+        height: auto;
+        text-align: left;
     }
 } 
+/* media 1200px end*/
