@@ -46,6 +46,7 @@ html, body {
     height: 5px;
 }
 
+
 /* Topnav css start */
 #top-nav {
    border: 1px solid #707070;
@@ -217,9 +218,62 @@ html, body {
 
 /* services css start */
 #services {
+    display: block;
     background: #dedede;
     min-height: 50vh;
 } 
+
+.header {
+    padding: 4rem;
+    text-align: center;
+}
+
+.header .line {
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+}
+
+#grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.card {
+    border-radius: 10px;
+    height: 350px;
+    background-color: #f1f1f1;
+    box-shadow: 3px 3px 10px 0 #3333334e;
+}
+
+.circle {
+    margin: 2rem auto;
+    height: 100px;
+    width: 100px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.circle img {
+    margin: 1.4rem 1.3rem;
+}
+
+
+.card-header {
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
 
 
 
