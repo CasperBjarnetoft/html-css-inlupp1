@@ -9,8 +9,12 @@
 }
 
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto slab', sans-serif;
     line-height: 1.5;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
 }
 
 .container {
@@ -236,8 +240,11 @@ html, body {
 
 #grid-section {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
+    padding-bottom: 4rem;
 }
 
 .card {
@@ -255,10 +262,17 @@ html, body {
     border-radius: 50%;
 }
 
-.circle img {
-    margin: 1.4rem 1.3rem;
+#avatar {
+    margin: 1.3rem 1.3rem;
 }
 
+#avatar2, #avatar3, #avatar4, #avatar6 { 
+    margin: 1.2rem 1.2rem;
+}
+
+#avatar5 {
+    margin: 1.2rem 2rem;
+}
 
 .card-header {
     text-align: center;
@@ -271,7 +285,7 @@ html, body {
     padding: 1rem;
     text-align: center;
 }
-
+/* services css end */
 
 
 
@@ -304,6 +318,11 @@ html, body {
     .btn {
         width: auto;
     }
+
+    #grid-section {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 /* media 768px end */
 
@@ -331,7 +350,6 @@ html, body {
     .numbers h3 {
         font-size: 1.8rem;
     }
-
 }
 /* media 992px end */
 
@@ -355,6 +373,8 @@ html, body {
         text-align: left;
     }
 
-
+    #grid-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
 } 
 /* media 1200px end*/
