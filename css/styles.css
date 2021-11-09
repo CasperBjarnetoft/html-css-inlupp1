@@ -223,7 +223,7 @@ p {
 /* services css start */
 #services {
     display: block;
-    background: #dedede;
+    background: #F7F7F7;
     min-height: 50vh;
 } 
 
@@ -287,8 +287,51 @@ p {
 }
 /* services css end */
 
+/* appointment css start */
+#appointment {
+    background-color: var(--primary-color);
+    padding: 3rem;
+    color: #fff;
+}
 
+#appointment .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#appointment h5 {
+    display: none;
+    font-size: large;
+}
+
+#appointment button {
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+#appointment button:hover {
+    border: 1px solid #fff;
+    background-color: var(--primary-color);  
+}
+/* appointment css end */
+
+/* footer css start */
+#line {
+     width: 100%;
+     height: 0.23px;
+     background-color: #fff;
+}
+
+#footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #F3FBFF;
+}
+
+#footer p {
+    opacity: 60%;
+}
 
 
 
@@ -323,6 +366,11 @@ p {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #appointment h5 {
+        display: inline-block;
+        font-size: small;
+    }
 }
 /* media 768px end */
 
@@ -350,6 +398,11 @@ p {
     .numbers h3 {
         font-size: 1.8rem;
     }
+
+    #appointment h5 {
+        font-size: medium;
+    }
+
 }
 /* media 992px end */
 
@@ -376,5 +429,10 @@ p {
     #grid-section {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    #appointment h5 {
+        font-size: x-large;
+    }
+
 } 
 /* media 1200px end*/
