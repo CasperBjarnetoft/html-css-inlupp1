@@ -262,15 +262,11 @@ p {
     border-radius: 50%;
 }
 
-#avatar {
-    margin: 1.3rem 1.3rem;
-}
-
-#avatar2, #avatar3, #avatar4, #avatar6 { 
+.avatar { 
     margin: 1.2rem 1.2rem;
 }
 
-#avatar5 {
+#avatar {
     margin: 1.2rem 2rem;
 }
 
